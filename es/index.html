@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IA Responsable y Segura para PYMEs | Seguridad IA, Gobernanza, AI SecOps | agitru</title>
+  <meta name="description" content="Servicios de IA Responsable y Segura para PYMEs: red teaming de LLMs e IA agéntica alineado a OWASP GenAI, evaluación de modelos de código abierto, gobernanza NIST AI RMF e ISO 42001, preparación Ley IA UE, AI DevSecOps seguro y evaluaciones continuas mensuales.">
+  <meta name="keywords" content="IA responsable para PYMEs, pruebas de seguridad LLM, consultoría gobernanza IA, preparación ISO 42001, preparación Ley IA UE para PYMEs, seguridad inteligencia artificial">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="agitru">
+  <link rel="canonical" href="https://agitru.com/es/">
+  <link rel="alternate" hreflang="en" href="https://agitru.com/">
+  <link rel="alternate" hreflang="es" href="https://agitru.com/es/">
+  <link rel="alternate" hreflang="x-default" href="https://agitru.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://agitru.com/es/">
+  <meta property="og:site_name" content="agitru">
+  <meta property="og:title" content="agitru — IA Responsable y Segura para PYMEs">
+  <meta property="og:description" content="Pruebas de seguridad de IA, gobernanza práctica y operaciones de seguridad de IA continuas para pequeñas y medianas empresas. Alineado a OWASP, NIST AI RMF, ISO 42001 y Ley de IA de la UE.">
+  <meta property="og:image" content="https://agitru.com/images/og-image.png">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:locale:alternate" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="agitru — IA Responsable y Segura para PYMEs">
+  <meta name="twitter:description" content="Pruebas de seguridad de IA, gobernanza práctica y operaciones de seguridad de IA continuas para PYMEs. Alineado a OWASP, NIST AI RMF, ISO 42001 y Ley de IA de la UE.">
+  <meta name="twitter:image" content="https://agitru.com/images/og-image.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300..800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="../favicon/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+  <link rel="manifest" href="../favicon/site.webmanifest">
+  <meta name="theme-color" content="#062661">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <!-- Background grid -->
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <img src="../agitru.svg" alt="agitru" class="nav-logo-img">
+      </a>
+      <div class="nav-links">
+        <a href="#services" data-i18n="nav.services">Servicios</a>
+        <a href="#team" data-i18n="nav.team">Equipo</a>
+        <a href="#how-it-works" data-i18n="nav.how">Cómo Funciona</a>
+        <a href="#faq" data-i18n="nav.faq">FAQ</a>
+      </div>
+      <div class="nav-cta">
+        <div class="lang-toggle">
+          <button class="lang-btn" data-lang="en">EN</button>
+          <button class="lang-btn active" data-lang="es">ES</button>
+        </div>
+        <a href="#contact" class="btn btn-primary" data-i18n="nav.cta">Agendar Llamada</a>
+      </div>
+      <button class="nav-mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#services" data-i18n="nav.services">Servicios</a>
+    <a href="#team" data-i18n="nav.team">Equipo</a>
+    <a href="#how-it-works" data-i18n="nav.how">Cómo Funciona</a>
+    <a href="#faq" data-i18n="nav.faq">FAQ</a>
+    <a href="#contact" data-i18n="mobile.contact">Contacto</a>
+    <a href="#contact" class="btn btn-primary" data-i18n="mobile.cta">Agendar Llamada</a>
+    <div class="lang-toggle lang-toggle--mobile">
+      <button class="lang-btn" data-lang="en">EN</button>
+      <button class="lang-btn active" data-lang="es">ES</button>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="bg-orb bg-orb--hero-1" aria-hidden="true"></div>
+    <div class="bg-orb bg-orb--hero-2" aria-hidden="true"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-pretitle reveal">
+          <span class="dot"></span>
+          <span data-i18n="hero.pretitle">IA Responsable y Segura para PYMEs</span>
+        </div>
+        <h1 class="hero-headline reveal reveal-delay-1">
+          <span data-i18n="hero.headline.pre">La </span><span class="gradient-text" data-i18n="hero.headline.ai">IA</span><span data-i18n="hero.headline.p1"> es tu mayor </span><span class="gradient-text" data-i18n="hero.headline.opp">oportunidad</span><span data-i18n="hero.headline.p2">. No dejes que se convierta en tu mayor&nbsp;</span><span class="alert-text" data-i18n="hero.headline.risk">riesgo.</span>
+        </h1>
+        <p class="hero-sub reveal reveal-delay-2">
+          <span class="hero-brand" data-i18n="hero.sub.brand">agitru</span><span data-i18n="hero.sub.mid"> ayuda a pequeñas y medianas empresas a usar la IA </span><span class="hero-hl" data-i18n="hero.sub.resp">con responsabilidad</span><span data-i18n="hero.sub.and"> y </span><span class="hero-hl" data-i18n="hero.sub.conf">con confianza</span><span data-i18n="hero.sub.through"> &mdash;&nbsp;</span><strong data-i18n="hero.sub.strong">identificamos riesgos ocultos, definimos reglas claras y supervisamos la IA que su equipo usa</strong><span data-i18n="hero.sub.post"> para que genere valor en lugar de problemas.</span>
+        </p>
+        <div class="hero-ctas reveal reveal-delay-3">
+          <a href="#contact" class="btn btn-primary">
+            <span data-i18n="hero.cta1">Agenda una Llamada de 30 Minutos</span>
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </a>
+          <a href="#contact" class="btn btn-secondary" data-i18n="hero.cta2">Solicita una Cotización</a>
+        </div>
+        <div class="hero-creds reveal reveal-delay-4">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L3 7v5c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-5z"/><path d="M9 12l2 2 4-4"/></svg>
+          <span><span data-i18n="hero.creds.pre">Equipo certificado por </span><strong>ISACA&reg;</strong><span data-i18n="hero.creds.post">: credenciales AAISM&trade; y AAIR&trade; en seguridad y riesgo de IA</span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI Warning Banner -->
+  <section class="ai-warning">
+    <div class="container">
+      <div class="ai-warning-grid">
+        <div class="ai-warning-text">
+          <div class="ai-warning-pretitle reveal">El Riesgo Es Real</div>
+          <p class="ai-warning-headline reveal reveal-delay-1">La IA puede llevar su negocio al <strong>siguiente nivel</strong>. Pero si se usa sin cuidado, también puede exponer datos, afectar clientes, violar derechos, ser usada por terceros contra su empresa y crear problemas legales capaces de <strong>sacarlo del mercado</strong>.</p>
+        </div>
+        <div class="ai-warning-image reveal reveal-delay-2">
+          <img src="../images/risk.png" alt="Riesgos de seguridad y gestión de IA para empresas">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Decalogue -->
+  <section class="decalogue">
+    <div class="container">
+      <div class="section-pretitle reveal">10 Cosas que Todo Líder Empresarial Debe Saber</div>
+      <h2 class="section-title reveal reveal-delay-1">Lo que realmente cuesta<br>ignorar el riesgo de IA.</h2>
+      <ol class="decalogue-list reveal">
+        <li>Si la IA comete un error, discrimina, inventa información, engaña a un cliente o viola derechos, su empresa es quien <strong>responde por ello</strong> &mdash; no el proveedor de la IA.</li>
+        <li>Si sus empleados usan IA sin reglas, pueden estar <strong>filtrando datos de clientes</strong>, contratos, precios, estrategias o información comercial confidencial.</li>
+        <li>Cada herramienta de IA que su equipo use sin aprobación &mdash; extensiones de navegador, chatbots gratuitos, SaaS &mdash; <strong>lleva sus datos y su responsabilidad</strong>.</li>
+        <li>La IA conectada a sus sistemas sin controles adecuados puede convertirse en un punto de entrada para errores, <strong>fraude, abuso o ataques</strong>.</li>
+        <li>Terceros maliciosos pueden manipular o abusar de sus sistemas de IA para <strong>dañar su empresa</strong>, sus clientes u otras personas.</li>
+        <li>La IA puede sonar inteligente mientras inventa <strong>información completamente falsa</strong>.</li>
+        <li>Automatizar un proceso deficiente con IA solo hace que el error ocurra <strong>más rápido</strong> y a <strong>mayor escala</strong>.</li>
+        <li>Cuando la IA esté involucrada en una queja o demanda, necesitará registros de qué decidió, con qué datos y bajo qué controles. <strong>Sin ellos, no hay defensa</strong>.</li>
+        <li>Usar IA sin supervisión puede derivar en quejas, <strong>demandas, sanciones, pérdidas económicas</strong>, violaciones de derechos y daño reputacional.</li>
+        <li>La pregunta real no es si su empresa debe usar IA; la pregunta es si puede usarla <strong>sin ponerse en riesgo</strong>.</li>
+      </ol>
+
+      <div class="decalogue-close reveal">
+        <p>No se puede corregir lo que no se ha identificado. <strong>agitru identifica cuáles de estos riesgos aplican a su negocio, los prioriza y entrega una hoja de ruta accionable en 1&ndash;2 semanas</strong> &mdash; para que sepa exactamente dónde enfocarse antes de invertir en remediación.</p>
+        <a href="#contact" class="btn btn-primary">
+          <span>Agenda una llamada gratis de 30 minutos</span>
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Bar -->
+  <section class="trust-bar">
+    <div class="container">
+      <p class="trust-bar-label reveal" data-i18n="trust.label">Alineado con los estándares de seguridad y cumplimiento de IA que sus clientes, socios y reguladores esperan</p>
+      <div class="trust-bar-items reveal reveal-delay-1">
+        <div class="trust-item">
+          <div class="trust-item-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L3 7v5c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-5z"/></svg>
+          </div>
+          NIST AI RMF
+        </div>
+        <div class="trust-item">
+          <div class="trust-item-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L3 7v5c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-5z"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          NIST GenAI Profile
+        </div>
+        <div class="trust-item">
+          <div class="trust-item-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M9 12l2 2 4-4"/></svg>
+          </div>
+          ISO/IEC 42001
+        </div>
+        <div class="trust-item">
+          <div class="trust-item-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M8 12h8M12 8v8"/></svg>
+          </div>
+          OWASP GenAI Security
+        </div>
+        <div class="trust-item">
+          <div class="trust-item-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><ellipse cx="12" cy="12" rx="4" ry="10"/></svg>
+          </div>
+          Ley IA UE
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Problem / Positioning -->
+  <section class="problem">
+    <div class="container">
+      <div class="problem-grid">
+        <div class="problem-left reveal">
+          <div class="section-pretitle" data-i18n="problem.pretitle">El Problema</div>
+          <h2 class="section-title" data-i18n="problem.title">Los riesgos de IA son predecibles. Ignorarlos no es una estrategia.</h2>
+          <p data-i18n="problem.p1">
+            Los sistemas de IA pueden filtrar datos de sus clientes, dar información incorrecta que sus clientes tomarán como cierta, o desencadenar acciones no autorizadas en herramientas conectadas como correo, CRM o pagos&mdash;a menudo por fallas predecibles que son fáciles de detectar y corregir una vez que sabe qué buscar.
+          </p>
+          <p data-i18n="problem.p2">
+            Estos no son riesgos teóricos. Aparecen cada semana en empresas reales&mdash;incluyendo pequeñas y medianas&mdash;y el costo de descubrirlos por las malas crece cada año.
+          </p>
+          <div class="problem-highlight">
+            <strong data-i18n="problem.hl.bold">Las PYMEs generalmente no necesitan un programa de gobernanza de 12 meses para comenzar.</strong><span data-i18n="problem.hl.text"> Necesitan una imagen clara de dónde están sus riesgos reales, correcciones prácticas que se ajusten a su equipo y presupuesto, y controles reutilizables&mdash;mientras siguen cumpliendo con los estándares que sus clientes y reguladores esperan.</span>
+          </div>
+        </div>
+        <div class="problem-right reveal reveal-delay-2">
+          <img src="../images/risk_ways.png" alt="Un líder empresarial en la encrucijada entre el camino próspero de la IA bien gestionada y el camino de ruina operativa, legal y reputacional" class="problem-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Value Propositions -->
+  <section class="values" id="values">
+    <div class="container">
+      <div class="section-pretitle reveal" data-i18n="values.pretitle">Por qué agitru</div>
+      <h2 class="section-title reveal reveal-delay-1"><span data-i18n="values.title.1">Seguridad y gobernanza de IA,</span><br><span data-i18n="values.title.2">a la medida de las PYMEs.</span></h2>
+      <div class="values-grid">
+        <div class="value-card reveal reveal-delay-1">
+          <div class="value-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M17.5 14v7M14 17.5h7"/></svg>
+          </div>
+          <h3 data-i18n="values.c1.title">Evaluaciones a tu Medida</h3>
+          <p data-i18n="values.c1.desc">Paquetes de alcance fijo con entregables claros, plazos predecibles y precio cerrado. La mayoría de servicios se entregan en 1&ndash;6 semanas. Sin programas de 12 meses, sin sorpresas en la factura, sin sobrecarga empresarial.</p>
+        </div>
+        <div class="value-card reveal reveal-delay-2">
+          <div class="value-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg>
+          </div>
+          <h3 data-i18n="values.c2.title">Diseñado para la Realidad IA de las PYMEs</h3>
+          <p data-i18n="values.c2.desc">La IA de su empresa rara vez es algo que usted construyó. Son los chatbots, copilots y funciones de IA dentro de las herramientas que su equipo ya usa. La probamos tal como usted la usa&mdash;incluyendo los riesgos que hereda de cada proveedor.</p>
+        </div>
+        <div class="value-card reveal reveal-delay-3">
+          <div class="value-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 15l2 2 4-4"/></svg>
+          </div>
+          <h3 data-i18n="values.c3.title">Evidencia Lista para Auditoría</h3>
+          <p data-i18n="values.c3.desc">Cuando un cliente, auditor o regulador pregunte cómo gestiona el riesgo de IA, tendrá una respuesta clara lista: documentación, evidencia y pruebas&mdash;sin haber montado un departamento de cumplimiento para producirla.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="team" id="team">
+    <div class="container">
+      <div class="team-inner">
+        <div class="team-image reveal">
+          <img src="../images/team.png" alt="Equipo agitru" class="team-img">
+        </div>
+        <div class="team-right">
+          <div class="team-text reveal">
+            <div class="section-pretitle" data-i18n="team.pretitle">El Equipo</div>
+            <h2 class="section-title"><span data-i18n="team.title.1">Profesionales senior,</span><br><span data-i18n="team.title.2">no generalistas.</span></h2>
+            <p data-i18n="team.p1">
+              Cada compromiso es liderado por consultores con experiencia práctica en ciberseguridad e inteligencia artificial&mdash;no por analistas que leen manuales. Nuestro equipo ha diseñado y vulnerado sistemas de IA, construido programas de seguridad para industrias reguladas y ayudado a organizaciones a navegar la intersección entre tecnología emergente y riesgo operacional en EE.UU., LATAM y la UE.
+            </p>
+            <p data-i18n="team.p2">
+              Aportamos la misma profundidad de experiencia a un compromiso de dos semanas con una PYME que la que una empresa grande esperaría de un socio senior&mdash;sin la sobrecarga, sin el ciclo de ventas y sin el relleno generalista.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Credentials -->
+  <section class="credentials" id="credentials">
+    <div class="container">
+      <div class="section-pretitle reveal" data-i18n="creds.pretitle">Credenciales</div>
+      <h2 class="section-title reveal reveal-delay-1"><span data-i18n="creds.title.1">Certificados en seguridad y riesgo de IA</span><br><span data-i18n="creds.title.2">por ISACA.</span></h2>
+      <p class="section-desc reveal reveal-delay-2" data-i18n="creds.desc">
+        Nuestros consultores poseen las credenciales avanzadas de IA de ISACA&mdash;entre las primeras certificaciones reconocidas globalmente dedicadas a gestionar la seguridad y el riesgo de la IA. El mismo rigor en el que conf&iacute;an auditores y juntas directivas, aplicado a sus sistemas de IA.
+      </p>
+      <div class="creds-grid">
+        <div class="cred-card reveal reveal-delay-1">
+          <div class="cred-badge">
+            <img src="../images/aaism-badge.svg" alt="Insignia de certificaci&oacute;n ISACA AAISM — Advanced in AI Security Management" width="132" height="132" loading="lazy">
+          </div>
+          <div class="cred-info">
+            <span class="cred-acronym">ISACA AAISM&trade;</span>
+            <h3 data-i18n="creds.aaism.name">Advanced in AI Security Management</h3>
+            <p data-i18n="creds.aaism.desc">La certificaci&oacute;n de ISACA centrada en la gesti&oacute;n de seguridad de IA&mdash;gobernanza de IA, supervisi&oacute;n del programa de seguridad y los controles necesarios para proteger sistemas de IA en producci&oacute;n.</p>
+          </div>
+        </div>
+        <div class="cred-card reveal reveal-delay-2">
+          <div class="cred-badge">
+            <img src="../images/aair-badge.svg" alt="Insignia de certificaci&oacute;n ISACA AAIR — Advanced in AI Risk" width="132" height="132" loading="lazy">
+          </div>
+          <div class="cred-info">
+            <span class="cred-acronym">ISACA AAIR&trade;</span>
+            <h3 data-i18n="creds.aair.name">Advanced in AI Risk</h3>
+            <p data-i18n="creds.aair.desc">La certificaci&oacute;n avanzada de ISACA en riesgo de IA&mdash;identificar, evaluar y gobernar el riesgo de IA a lo largo del ciclo de vida, alineada con marcos reconocidos como el NIST AI RMF.</p>
+          </div>
+        </div>
+      </div>
+      <p class="creds-note reveal reveal-delay-3" data-i18n="creds.note">AAISM&trade; y AAIR&trade; son marcas de ISACA. Las insignias identifican a profesionales certificados individuales del equipo de agitru.</p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <div class="bg-orb bg-orb--services" aria-hidden="true"></div>
+    <div class="container">
+      <div class="section-pretitle reveal" data-i18n="services.pretitle">Servicios</div>
+      <h2 class="section-title reveal reveal-delay-1"><span data-i18n="services.title.1">Elija el paquete que se ajusta</span><br><span data-i18n="services.title.2">a su situación actual.</span></h2>
+      <p class="services-intro reveal reveal-delay-2" data-i18n="services.intro">
+        Cada paquete tiene alcance fijo, precio cerrado y entregables claros. Elija el que se ajuste a la etapa actual de su negocio&mdash;puede sumar más a medida que crece.
+      </p>
+      <!-- Categoría 1: Empezar -->
+      <div class="services-category reveal">
+        <div class="services-category-header">
+          <h3 class="services-category-title">Empezar &mdash; ¿Dónde estoy parado?</h3>
+          <p class="services-category-desc">Ideal si aún no ha realizado una revisión estructurada de riesgo de IA, o quiere un panorama consolidado antes de invertir en programas específicos.</p>
+        </div>
+        <div class="services-grid services-grid--single">
+
+          <!-- Service 0 -->
+          <div class="service-card service-card--gateway">
+            <div class="service-card-header">
+              <div class="service-card-number">00</div>
+              <div class="service-card-meta">
+                <span class="service-card-badge" data-i18n="s0.b1">2&ndash;4 semanas</span>
+                <span class="service-card-badge service-card-badge--accent" data-i18n="s0.b2">Empieza aquí</span>
+              </div>
+            </div>
+            <h3 data-i18n="s0.title">Radiografía Completa de Riesgo de IA</h3>
+            <p class="service-card-subtitle">Evaluación de Postura de IA Segura y Responsable</p>
+            <p class="service-card-desc" data-i18n="s0.desc">Ideal para PYMEs que aún no han realizado una revisión estructurada de riesgo de IA&mdash;o que quieren tener un panorama consolidado antes de invertir en programas específicos. Mapea tu estado actual en ambas dimensiones: seguridad y gobernanza, y calibra las brechas frente a los estándares y requisitos de mercado que aplican a tu contexto: NIST AI RMF, OWASP GenAI, ISO 42001 y Ley de IA de la UE.</p>
+            <div class="service-card-deliverables">
+              <h4 data-i18n="services.deliverables">Entregables</h4>
+              <ul>
+                <li data-i18n="s0.d1">Inventario de sistemas y modelos de IA con mapeo de flujos de datos y límites de confianza</li>
+                <li data-i18n="s0.d2">Scorecard de postura en dos dimensiones: seguridad (alineada a OWASP GenAI) + gobernanza (funciones GOBERNAR/MAPEAR del AI RMF)</li>
+                <li data-i18n="s0.d3">Análisis de brechas calibrado a los estándares aplicables y mercados objetivo (EE.UU., LATAM, UE)</li>
+                <li data-i18n="s0.d4">Hoja de ruta de remediación priorizada con calificaciones de esfuerzo/impacto por hallazgo</li>
+                <li data-i18n="s0.d5">Ruta de servicios recomendada con próximos pasos secuenciados para alcanzar el nivel de postura requerido</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <div class="services-category-cta">
+          <a href="#contact" class="services-category-link">
+            <span>Solicitar cotización</span>
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Categoría 2: Probar y asegurar -->
+      <div class="services-category reveal">
+        <div class="services-category-header">
+          <h3 class="services-category-title">Probar y asegurar mi IA</h3>
+          <p class="services-category-desc">Ya usa IA en su negocio. Identificamos las brechas de seguridad antes de que sus clientes, atacantes o reguladores lo hagan.</p>
+        </div>
+        <div class="services-grid">
+
+          <!-- Service 1 -->
+          <div class="service-card">
+            <div class="service-card-header">
+              <div class="service-card-number">01</div>
+              <div class="service-card-meta">
+                <span class="service-card-badge" data-i18n="s1.b1">1&ndash;2 semanas</span>
+                <span class="service-card-badge" data-i18n="s1.b2">Alcance fijo</span>
+              </div>
+            </div>
+            <h3 data-i18n="s1.title">Auditoría Rápida de Seguridad de IA</h3>
+            <p class="service-card-subtitle">QuickScan de Seguridad IA para Apps LLM y Agentes</p>
+            <p class="service-card-desc" data-i18n="s1.desc">Ideal para PYMEs que pilotean o ya usan IA generativa&mdash;chatbots, búsqueda RAG, automatización de soporte al cliente, flujos de trabajo agénticos. Base: OWASP Top 10 para LLMs y IA Agéntica + resultados MAP/MEASURE del AI RMF.</p>
+            <div class="service-card-deliverables">
+              <h4 data-i18n="services.deliverables">Entregables</h4>
+              <ul>
+                <li data-i18n="s1.d1">Revisión de arquitectura y flujos de datos</li>
+                <li data-i18n="s1.d2">Resumen de pruebas alineado a OWASP con correcciones priorizadas</li>
+                <li data-i18n="s1.d3">Lista de verificación de Release Gate para preparación en producción</li>
+                <li data-i18n="s1.d4">Informe ejecutivo de una página con recomendaciones a 30 días</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card">
+            <div class="service-card-header">
+              <div class="service-card-number">02</div>
+              <div class="service-card-meta">
+                <span class="service-card-badge" data-i18n="s2.b1">3&ndash;5 semanas</span>
+                <span class="service-card-badge" data-i18n="s2.b2">Alcance fijo</span>
+              </div>
+            </div>
+            <h3 data-i18n="s2.title">Prueba de Ataque Controlado a su IA</h3>
+            <p class="service-card-subtitle">Sprint de Red Team para LLMs y Agentes</p>
+            <p class="service-card-desc" data-i18n="s2.desc">Ideal para PYMEs con uso real en producción, IA orientada al cliente, o IA conectada a herramientas como email, CRM, ticketing, código y flujos de trabajo. Alineado al Top 10 de OWASP para IA Agéntica y la guía de red teaming GenAI del NIST.</p>
+            <div class="service-card-deliverables">
+              <h4 data-i18n="services.deliverables">Entregables</h4>
+              <ul>
+                <li data-i18n="s2.d1">Modelo de amenazas + catálogo de casos de abuso adaptado a los permisos de tus agentes/herramientas</li>
+                <li data-i18n="s2.d2">Suite de pruebas adversariales con prompts reproducibles y set de regresión</li>
+                <li data-i18n="s2.d3">Informe de hallazgos con narrativas de explotación y mitigaciones listas para ingeniería</li>
+                <li data-i18n="s2.d4">Validación de retesting que confirma la reducción de riesgo</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card">
+            <div class="service-card-header">
+              <div class="service-card-number">03</div>
+              <div class="service-card-meta">
+                <span class="service-card-badge" data-i18n="s3.b1">2&ndash;3 semanas</span>
+                <span class="service-card-badge" data-i18n="s3.b2">Alcance fijo</span>
+              </div>
+            </div>
+            <h3 data-i18n="s3.title">Adopción Segura de Modelos de IA Externos</h3>
+            <p class="service-card-subtitle">Puerta de Ingreso para Modelos de Código Abierto</p>
+            <p class="service-card-desc" data-i18n="s3.desc">Ideal para PYMEs que descargan modelos de hubs públicos, hacen fine-tuning o embeben modelos abiertos en productos. Los artefactos de modelos inseguros pueden habilitar ejecución arbitraria de código&mdash;los controles de ingreso importan.</p>
+            <div class="service-card-deliverables">
+              <h4 data-i18n="services.deliverables">Entregables</h4>
+              <ul>
+                <li data-i18n="s3.d1">Lista de verificación de ingreso de modelos y calificación de riesgo (aprobar / contención / rechazar)</li>
+                <li data-i18n="s3.d2">Revisión de artefactos con recomendaciones de controles de carga segura</li>
+                <li data-i18n="s3.d3">Plan de ejecución en sandbox para pruebas seguras en pre-producción</li>
+                <li data-i18n="s3.d4">Lista de materiales de la cadena de suministro para componentes de IA</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <div class="services-category-cta">
+          <a href="#contact" class="services-category-link">
+            <span>Solicitar cotización</span>
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Categoría 3: Construir gobernanza -->
+      <div class="services-category reveal">
+        <div class="services-category-header">
+          <h3 class="services-category-title">Construir gobernanza de IA</h3>
+          <p class="services-category-desc">Reglas claras, políticas internas y evidencia lista para auditoría&mdash;sin burocracia.</p>
+        </div>
+        <div class="services-grid">
+
+          <!-- Service 4 -->
+          <div class="service-card">
+            <div class="service-card-header">
+              <div class="service-card-number">04</div>
+              <div class="service-card-meta">
+                <span class="service-card-badge" data-i18n="s4.b1">4&ndash;6 semanas</span>
+                <span class="service-card-badge" data-i18n="s4.b2">Alcance fijo</span>
+              </div>
+            </div>
+            <h3 data-i18n="s4.title">Kit de Reglas y Políticas de IA</h3>
+            <p class="service-card-subtitle">Kit Inicial de IA Responsable para PYMEs</p>
+            <p class="service-card-desc" data-i18n="s4.desc">Ideal para PYMEs que necesitan gobernanza sin burocracia&mdash;especialmente cuando los clientes preguntan &ldquo;¿cómo gestionas el riesgo de IA?&rdquo; Anclado en los resultados GOBERNAR del AI RMF.</p>
+            <div class="service-card-deliverables">
+              <h4 data-i18n="services.deliverables">Entregables</h4>
+              <ul>
+                <li data-i18n="s4.d1">Inventario de casos de uso de IA + clasificación básica de riesgos</li>
+                <li data-i18n="s4.d2">Carta de gobernanza ligera (derechos de decisión, aprobaciones, escalamiento)</li>
+                <li data-i18n="s4.d3">Políticas y líneas base de IA amigables para PYMEs</li>
+                <li data-i18n="s4.d4">Perfil AI RMF actual vs. objetivo con plan de acción a 90 días</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Service 5 -->
+          <div class="service-card">
+            <div class="service-card-header">
+              <div class="service-card-number">05</div>
+              <div class="service-card-meta">
+                <span class="service-card-badge" data-i18n="s5.b1">6&ndash;10 semanas</span>
+                <span class="service-card-badge" data-i18n="s5.b2">Alcance fijo</span>
+              </div>
+            </div>
+            <h3 data-i18n="s5.title">Cumplimiento de IA para Empresas Grandes y la UE</h3>
+            <p class="service-card-subtitle">Acelerador de Preparación ISO 42001 y Ley de IA de la UE</p>
+            <p class="service-card-desc" data-i18n="s5.desc">Ideal para PYMEs que venden a la UE, trabajan con clientes empresariales o se preparan para requisitos de adquisición/auditoría. Documentación ISO 42001 + Ley de IA de la UE, registro y controles de ciberseguridad.</p>
+            <div class="service-card-deliverables">
+              <h4 data-i18n="services.deliverables">Entregables</h4>
+              <ul>
+                <li data-i18n="s5.d1">Instantánea de preparación ISO 42001 + hoja de ruta</li>
+                <li data-i18n="s5.d2">Informe de aplicabilidad de la Ley de IA de la UE y plazos</li>
+                <li data-i18n="s5.d3">Paquete inicial de evidencia para la Ley de IA de la UE (Artículos 11&ndash;12&ndash;15)</li>
+                <li data-i18n="s5.d4">Enfoque de documentación amigable para PYMEs</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <div class="services-category-cta">
+          <a href="#contact" class="services-category-link">
+            <span>Solicitar cotización</span>
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Categoría 4: Protección continua -->
+      <div class="services-category reveal">
+        <div class="services-category-header">
+          <h3 class="services-category-title">Protección continua a largo plazo</h3>
+          <p class="services-category-desc">La IA cambia constantemente. Vigilamos, asesoramos y actualizamos sus protecciones para que no queden obsoletas.</p>
+        </div>
+        <div class="services-grid">
+
+          <!-- Service 6 -->
+          <div class="service-card">
+            <div class="service-card-header">
+              <div class="service-card-number">06</div>
+              <div class="service-card-meta">
+                <span class="service-card-badge" data-i18n="s6.b1">Mensual</span>
+                <span class="service-card-badge" data-i18n="s6.b2">Retainer</span>
+              </div>
+            </div>
+            <h3 data-i18n="s6.title">Monitoreo Continuo de Seguridad de IA</h3>
+            <p class="service-card-subtitle">Evaluaciones Continuas de IA y AI SecOps Ligero</p>
+            <p class="service-card-desc" data-i18n="s6.desc">Ideal para PYMEs que quieren protección continua después del go-live sin construir un equipo dedicado de seguridad de IA. El AI RMF enfatiza la gestión de riesgos como un proceso continuo a lo largo del ciclo de vida.</p>
+            <div class="service-card-deliverables">
+              <h4 data-i18n="services.deliverables">Entregables</h4>
+              <ul>
+                <li data-i18n="s6.d1">Ejecuciones mensuales de evaluación: regresiones de seguridad, regresiones funcionales, escenarios de abuso</li>
+                <li data-i18n="s6.d2">Puertas CI/CD y criterios de parada/entrega para prompts, herramientas y actualizaciones de modelos</li>
+                <li data-i18n="s6.d3">Soporte de higiene de registros y evidencia</li>
+                <li data-i18n="s6.d4">Revisión trimestral de riesgo ejecutivo</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Service 7 -->
+          <div class="service-card service-card--featured">
+            <div class="service-card-header">
+              <div class="service-card-number">07</div>
+              <div class="service-card-meta">
+                <span class="service-card-badge" data-i18n="s7.b1">Continuo</span>
+                <span class="service-card-badge" data-i18n="s7.b2">Asesoría</span>
+              </div>
+            </div>
+            <h3 data-i18n="s7.title">Director de IA a Tiempo Parcial</h3>
+            <p class="service-card-subtitle">CAIO Virtual y Apoyo al Comité de Dirección de IA</p>
+            <p class="service-card-desc" data-i18n="s7.desc">Ideal para PYMEs que necesitan liderazgo senior en IA sin contratar a tiempo completo. Un Chief AI Officer fraccional o miembro externo del comité integrado en tu estructura de gobernanza&mdash;aportando experiencia en NIST AI RMF, supervisión de proveedores y dirección estratégica a tiempo parcial.</p>
+            <div class="service-card-deliverables">
+              <h4 data-i18n="services.deliverables">Entregables</h4>
+              <ul>
+                <li data-i18n="s7.d1">Participación en el comité de dirección de IA con cadencia de gobernanza definida</li>
+                <li data-i18n="s7.d2">Co-propiedad del roadmap de IA, evaluación de proveedores/modelos y priorización de casos de uso</li>
+                <li data-i18n="s7.d3">Informes de riesgo de IA listos para la junta directiva y monitoreo de cambios regulatorios</li>
+                <li data-i18n="s7.d4">Talleres de alfabetización en IA para liderazgo y evaluaciones de capacidad del equipo</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <div class="services-category-cta">
+          <a href="#contact" class="services-category-link">
+            <span>Solicitar cotización</span>
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="how-grid">
+        <div class="how-image reveal">
+          <img src="../images/works.png" alt="Proceso de consultoría de seguridad IA de agitru: llamada inicial, propuesta de alcance fijo, ejecución y entrega" class="how-img">
+        </div>
+        <div class="how-content">
+          <div class="section-pretitle reveal" data-i18n="how.pretitle">Cómo Funciona</div>
+          <h2 class="section-title reveal reveal-delay-1"><span data-i18n="how.title.1">De la llamada inicial a</span><br><span data-i18n="how.title.2">resultados accionables.</span></h2>
+          <p class="section-desc reveal reveal-delay-2" data-i18n="how.desc">Un flujo de compromiso de inicio rápido diseñado para PYMEs que necesitan avanzar rápido sin tomar atajos.</p>
+          <div class="steps">
+            <div class="step reveal reveal-delay-1">
+              <div class="step-number"><span>1</span></div>
+              <h3 data-i18n="how.s1.title">Llamada de Alcance de 30 Minutos</h3>
+              <p data-i18n="how.s1.desc">Mapeamos rápidamente tus casos de uso de IA, dónde viven los datos sensibles y si las herramientas o agentes pueden tomar acciones. Sin costo, sin presión.</p>
+              <span class="step-tag" data-i18n="how.s1.tag">Gratis</span>
+            </div>
+            <div class="step reveal reveal-delay-2">
+              <div class="step-number"><span>2</span></div>
+              <h3 data-i18n="how.s2.title">Propuesta de Alcance Fijo</h3>
+              <p data-i18n="how.s2.desc">Recibes un paquete claro, plazos, entregables y requisitos de acceso. En 2 días hábiles.</p>
+              <span class="step-tag" data-i18n="how.s2.tag">2 días hábiles</span>
+            </div>
+            <div class="step reveal reveal-delay-3">
+              <div class="step-number"><span>3</span></div>
+              <h3 data-i18n="how.s3.title">Ejecución y Entrega</h3>
+              <p data-i18n="how.s3.desc">Recibes artefactos accionables&mdash;suite de pruebas, hoja de ruta, paquete inicial de evidencia&mdash;y un resumen ejecutivo para que puedas implementar de inmediato.</p>
+              <span class="step-tag" data-i18n="how.s3.tag">Artefactos accionables</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-pretitle reveal" data-i18n="faq.pretitle">FAQ</div>
+      <h2 class="section-title reveal reveal-delay-1" data-i18n="faq.title">Preguntas frecuentes.</h2>
+
+      <div class="faq-list">
+
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            <span data-i18n="faq.q1">¿Garantizan que nuestra IA será &ldquo;segura&rdquo; o &ldquo;conforme&rdquo;?</span>
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner" data-i18n="faq.a1">No. El riesgo de IA puede reducirse&mdash;no eliminarse. Le damos una imagen clara de dónde está parado, correcciones prácticas y la evidencia para defenderse si algo sale mal. No prometemos resultados ni decisiones regulatorias, porque honestamente nadie puede.</div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            <span data-i18n="faq.q2">¿Brindan asesoría legal sobre la Ley de IA de la UE o leyes locales?</span>
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner" data-i18n="faq.a2">No. Manejamos el trabajo técnico, operacional y de evidencia. La interpretación legal&mdash;qué significa la ley para su caso específico&mdash;debe venir de abogados calificados.</div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            <span data-i18n="faq.q3">Estamos fuera de la UE&mdash;¿la Ley de IA de la UE sigue siendo relevante?</span>
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner" data-i18n="faq.a3">Sí, frecuentemente. La Ley de IA de la UE aplica siempre que un sistema de IA o sus resultados llegan al mercado europeo&mdash;aunque su empresa esté basada en otro lugar. Si vende a clientes en la UE, o sus resultados son usados por ellos, probablemente le aplica.</div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            <span data-i18n="faq.q4">¿Cuál es la forma más rápida de comenzar?</span>
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner" data-i18n="faq.a4">La mayoría de los clientes comienzan con la Auditoría Rápida de Seguridad de IA (1&ndash;2 semanas) para identificar los riesgos de mayor impacto y qué corregir primero. A partir de ahí, usted decide si profundizar con pruebas de ataque, construir reglas internas o configurar monitoreo continuo.</div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            <span data-i18n="faq.q5">¿Probarán nuestras herramientas de agentes (CRM, email, ticketing, APIs)?</span>
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner" data-i18n="faq.a5">Sí. Es una de nuestras áreas de prueba prioritarias, porque la IA conectada a su CRM, correo, ticketing o herramientas de pago puede ser engañada para ejecutar acciones que usted nunca autorizó. Mapeamos cada conexión y probamos las formas en que podría ser mal usada.</div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            <span data-i18n="faq.q6">Usamos modelos de código abierto&mdash;¿cuál es el riesgo real?</span>
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner" data-i18n="faq.a6">Cuando descarga un modelo desde un sitio público, está heredando lo que su autor original puso dentro&mdash;incluyendo, en algunos casos, la capacidad de ejecutar código en sus servidores. Agregamos un paso de revisión antes de que cualquier modelo llegue a su entorno de producción.</div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            <span data-i18n="faq.q7">¿Cómo manejan nuestros datos, prompts y registros de clientes?</span>
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner" data-i18n="faq.a7">Por defecto trabajamos dentro de su entorno para que sus datos no se muevan. Cuando se necesita acceso fuera de su entorno, aplicamos minimización de datos, límites de retención y eliminación segura conforme a sus obligaciones de privacidad.</div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            <span data-i18n="faq.q8">¿Necesitamos la certificación ISO 42001?</span>
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner" data-i18n="faq.a8">No siempre. Muchas PYMEs se benefician de estar <em>listas</em> para ISO 42001&mdash;con la documentación y los controles en sitio&mdash;sin pasar por la certificación formal. Si un cliente o contrato la exige específicamente, la certificación vale la inversión. Le ayudamos a decidir de qué lado de esa línea está.</div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            <span data-i18n="faq.q9">¿Qué se requiere de nuestro equipo durante un compromiso?</span>
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner" data-i18n="faq.a9">Normalmente: un patrocinador técnico (alguien que pueda responder preguntas y aprobar accesos), acceso de solo lectura a los sistemas relevantes, y entrevistas cortas con quienes construyen, usan o supervisan la IA. Mantenemos la carga de trabajo de nuestro lado.</div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            <span data-i18n="faq.q10">¿Qué pasa después de la evaluación&mdash;ayudan a corregir los problemas?</span>
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner" data-i18n="faq.a10">Sí. Podemos ejecutar un sprint enfocado en cerrar las brechas de mayor prioridad, o configurar un retainer mensual continuo que mantiene sus protecciones actualizadas a medida que las herramientas de IA, los prompts y los proveedores cambian a su alrededor.</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / CTA -->
+  <section class="cta-section" id="contact">
+    <div class="bg-orb bg-orb--cta" aria-hidden="true"></div>
+    <div class="container">
+      <div class="cta-grid">
+        <div class="cta-content reveal">
+          <div class="section-pretitle" data-i18n="cta.pretitle">Comenzar</div>
+          <h2 class="section-title reveal reveal-delay-1"><span data-i18n="cta.title.1">Habla con un consultor senior.</span><br><span data-i18n="cta.title.2">Sin filtro de ventas.</span></h2>
+          <p class="section-desc reveal reveal-delay-2" data-i18n="cta.desc">
+            Agenda una llamada de alcance gratuita de 30 minutos con un consultor principal. Mapearemos tu panorama de riesgo de IA y recomendaremos el punto de partida adecuado.
+          </p>
+          <div class="hero-ctas reveal reveal-delay-3">
+            <a href="mailto:contact@agitru.com" class="btn btn-primary">
+              <span data-i18n="cta.btn1">Agenda una Llamada de 30 Min</span>
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </a>
+            <a href="mailto:contact@agitru.com" class="btn btn-secondary" data-i18n="cta.btn2">Escríbenos Directamente</a>
+          </div>
+          <div class="cta-channels reveal reveal-delay-4">
+            <div class="cta-channel">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+              contact@agitru.com
+            </div>
+            <div class="cta-channel">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span data-i18n="cta.whatsapp">WhatsApp disponible</span>
+            </div>
+            <div class="cta-channel">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><ellipse cx="12" cy="12" rx="4" ry="10"/></svg>
+              <span data-i18n="cta.geo">EE.UU. &middot; LATAM &middot; UE</span>
+            </div>
+          </div>
+          <p class="cta-regions reveal reveal-delay-5" data-i18n="cta.regions">Regiones de servicio: Estados Unidos (entrega desde EE.UU.), América Latina (remoto + soporte de partners) y soporte de preparación orientado a la UE.</p>
+        </div>
+        <div class="cta-image reveal reveal-delay-2">
+          <img src="../images/cta.png" alt="Agenda una consulta de seguridad IA de 30 minutos con agitru" class="cta-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">
+            <img src="../agitru-gray.svg" alt="agitru" class="nav-logo-img" width="156" height="40">
+          </a>
+          <p data-i18n="footer.desc">Servicios de IA Responsable y Segura para PYMEs. Pruebas de seguridad, gobernanza práctica y operaciones de seguridad de IA continuas.</p>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.col.services">Servicios</h4>
+          <a href="#services" data-i18n="footer.fn.posture">Radiografía de Riesgo IA</a>
+          <a href="#services" data-i18n="footer.fn.quickscan">Auditoría Rápida de Seguridad</a>
+          <a href="#services" data-i18n="footer.fn.redteam">Ataque Controlado a IA</a>
+          <a href="#services" data-i18n="footer.fn.intake">Adopción Segura de Modelos</a>
+          <a href="#services" data-i18n="footer.fn.rai">Reglas y Políticas de IA</a>
+          <a href="#services" data-i18n="footer.fn.iso">Cumplimiento UE y Empresas</a>
+          <a href="#services" data-i18n="footer.fn.evals">Monitoreo Continuo</a>
+          <a href="#services" data-i18n="footer.fn.caio">Director de IA Parcial</a>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.col.company">Empresa</h4>
+          <a href="#team" data-i18n="footer.fn.team">Equipo</a>
+          <a href="#how-it-works" data-i18n="footer.fn.how">Cómo Funciona</a>
+          <a href="#faq" data-i18n="footer.fn.faq">FAQ</a>
+          <a href="#contact" data-i18n="footer.fn.contact">Contacto</a>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.col.standards">Estándares</h4>
+          <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener">NIST AI RMF</a>
+          <a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener">NIST GenAI Profile</a>
+          <a href="https://www.iso.org/standard/42001" target="_blank" rel="noopener">ISO/IEC 42001</a>
+          <a href="https://genai.owasp.org/" target="_blank" rel="noopener">OWASP GenAI Project</a>
+          <a href="https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/" target="_blank" rel="noopener">OWASP LLM Top 10</a>
+          <a href="https://genai.owasp.org/initiatives/agentic-security-initiative/" target="_blank" rel="noopener">OWASP IA Agéntica</a>
+          <a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener">Ley de IA de la UE</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-disclaimer" data-i18n="footer.disclaimer">
+          agitru presta servicios técnicos, de seguridad y de gestión de riesgos operacionales. No prestamos asesoría legal. La aplicabilidad e interpretación regulatoria (incluidos los alcances y obligaciones de la Ley de IA de la UE) debe confirmarse con asesoría legal calificada. Los precios, SLAs y plazos son ilustrativos hasta su confirmación en una declaración de trabajo firmada.
+        </p>
+        <p class="footer-copyright" data-i18n="footer.copy">&copy; 2026 agitru</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../i18n.js"></script>
+  <script src="../main.js"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "agitru",
+    "url": "https://agitru.com",
+    "logo": "https://agitru.com/agitru.svg",
+    "image": "https://agitru.com/images/og-image.png",
+    "description": "Servicios de IA Responsable y Segura para PYMEs. Pruebas de seguridad de IA, gobernanza práctica y operaciones de seguridad de IA continuas alineadas a OWASP, NIST AI RMF, ISO 42001 y Ley de IA de la UE.",
+    "email": "contact@agitru.com",
+    "areaServed": [
+      { "@type": "Country", "name": "United States" },
+      { "@type": "Place", "name": "Latin America" },
+      { "@type": "Place", "name": "European Union" }
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Servicios de Seguridad y Gobernanza de IA",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Evaluación de Postura de IA Segura y Responsable" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "QuickScan de Seguridad IA para Apps LLM y Agentes" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Sprint de Red Team para LLMs y Agentes" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Puerta de Ingreso para Modelos de Código Abierto" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kit Inicial de IA Responsable para PYMEs" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Acelerador de Preparación ISO 42001 y Ley de IA de la UE" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Evaluaciones Continuas de IA y AI SecOps Ligero" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CAIO Virtual y Apoyo al Comité de Dirección de IA" } }
+      ]
+    },
+    "knowsAbout": [
+      "Seguridad IA", "Red Teaming LLM", "Gobernanza IA", "IA Responsable",
+      "NIST AI RMF", "ISO/IEC 42001", "Ley de IA de la UE", "OWASP LLM Top 10", "AI SecOps"
+    ],
+    "hasCredential": [
+      { "@type": "EducationalOccupationalCredential", "name": "ISACA Advanced in AI Security Management (AAISM)", "credentialCategory": "certification" },
+      { "@type": "EducationalOccupationalCredential", "name": "ISACA Advanced in AI Risk (AAIR)", "credentialCategory": "certification" }
+    ],
+    "sameAs": []
+  }
+  </script>
+</body>
+</html>
