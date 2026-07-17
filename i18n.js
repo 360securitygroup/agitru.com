@@ -69,7 +69,9 @@
       'creds.aaism.desc': 'ISACA\u2019s AI-centric security management certification\u2014covering AI governance, security program oversight, and the controls required to protect AI systems in production.',
       'creds.aair.name': 'Advanced in AI Risk',
       'creds.aair.desc': 'ISACA\u2019s advanced AI risk certification\u2014identifying, assessing, and governing AI risk across the lifecycle, aligned with recognized frameworks such as the NIST AI RMF.',
-      'creds.note': 'AAISM\u2122 and AAIR\u2122 are trademarks of ISACA. Badges identify individual certified professionals on the agitru team.',
+      'creds.cyber.label': 'Backed by deep cybersecurity credentials',
+      'creds.cyber.more': '+ more',
+      'creds.note': 'AAISM\u2122 and AAIR\u2122 are trademarks of ISACA. All certification marks belong to their respective owners\u2014ISACA, ISC2, and Cloud Security Alliance\u2014and identify individual certified professionals on the agitru team.',
 
       'services.pretitle': 'Services',
       'services.title.1': 'SMB packages built on',
@@ -272,7 +274,9 @@
       'creds.aaism.desc': 'La certificaci\u00f3n de ISACA centrada en la gesti\u00f3n de seguridad de IA\u2014gobernanza de IA, supervisi\u00f3n del programa de seguridad y los controles necesarios para proteger sistemas de IA en producci\u00f3n.',
       'creds.aair.name': 'Advanced in AI Risk',
       'creds.aair.desc': 'La certificaci\u00f3n avanzada de ISACA en riesgo de IA\u2014identificar, evaluar y gobernar el riesgo de IA a lo largo del ciclo de vida, alineada con marcos reconocidos como el NIST AI RMF.',
-      'creds.note': 'AAISM\u2122 y AAIR\u2122 son marcas de ISACA. Las insignias identifican a profesionales certificados individuales del equipo de agitru.',
+      'creds.cyber.label': 'Respaldados por s\u00f3lidas credenciales de ciberseguridad',
+      'creds.cyber.more': '+ m\u00e1s',
+      'creds.note': 'AAISM\u2122 y AAIR\u2122 son marcas de ISACA. Todas las marcas de certificaci\u00f3n pertenecen a sus respectivos propietarios\u2014ISACA, ISC2 y Cloud Security Alliance\u2014e identifican a profesionales certificados individuales del equipo de agitru.',
 
       'services.pretitle': 'Servicios',
       'services.title.1': 'Paquetes para PYMEs basados en',
